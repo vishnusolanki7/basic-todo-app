@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.addForm {
+  margin: 5px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: large;
+  font-weight: bolder;
+  /* background-color: #EFF2F7; */
+  color: #040809;
+}
+.title {
+  margin: 10px 300px 0px 300px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #a49cd7;
+  font-size: 22px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+.titleTable {
+  font-size: 22px;
+  font-family: sans-serif;
+  text-align: center;
+}
+#name {
+  margin: 10px;
+  padding: 6px;
+  font-size: 18px;
+}
+.buttonClass {
+  padding: 4px;
+  width: 50%;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  background: darkseagreen;
+}
+.my-20 {
+  margin: 20px 0px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  box-shadow: none !important;
+}
+
+.table-footer {
+  background-color: #a49cd7;
+}
+
+.color-white {
+  color: white !important;
+}
+.tableClass {
+  border: 1px solid;
+  background-color: #a49cd7;
+  padding: 10px;
+  margin: 5px 300px 5px 300px;
+}
+.userList{
+      display: flex;
+    justify-content: center;
+    gap: 10px;
+}
